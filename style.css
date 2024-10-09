@@ -317,12 +317,13 @@ body{
         justify-content: space-around;
     }
     .card1{
-        height: 160px;
-        width: 80px;
+        height: 150px;
+        width: 100px;
     }
     .card1 img{
         height: 50%;
         width: 100%;
+        border-radius: 5px;
     }
     .content2 h4{
         font-size: 8px;
@@ -339,10 +340,10 @@ body{
         justify-content: space-around;
     }
     .content4 h4{
-        font-size: 10px;
+        font-size: 8px;
     }
     .content4 h5{
-        font-size: 8px;
+        font-size: 6px;
     }
     .content5{
         width: 100%;
