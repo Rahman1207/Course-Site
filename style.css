@@ -248,7 +248,7 @@ body{
         border-radius: 10px;
     }
 }
-@media only screen and (max-width: 280px){
+@media only screen and (max-width: 250px){
     .navbar{
         background-color: #000000;
         height: 50px;
