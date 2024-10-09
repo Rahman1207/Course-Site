@@ -255,7 +255,10 @@ body{
         border-radius: 10px;
     }
 }
-@media only screen and (max-width: 250px){
+@media only screen and (max-width: 320px){
+    body{
+        width: 320px;
+    }
     .navbar{
         background-color: #000000;
         height: 50px;
@@ -314,19 +317,18 @@ body{
         justify-content: space-around;
     }
     .card1{
-        height: 180px;
-        width: 100px;
+        height: 160px;
+        width: 80px;
     }
     .card1 img{
         height: 50%;
         width: 100%;
-        border-radius: 10px;
     }
     .content2 h4{
-        font-size: 10px;
+        font-size: 8px;
     }
     .content2 h5{
-        font-size: 8px;
+        font-size: 6px;
     }
     .content4{
         height: auto;
