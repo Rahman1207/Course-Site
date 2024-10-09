@@ -105,7 +105,9 @@ body{
 .card1 img{
     height: 50%;
     width: 100%;
+    object-fit: fill;
     border-radius: 10px;
+    
 }
 .card1:hover{
     transition: all .2s ease-in-out;
@@ -198,6 +200,11 @@ body{
     .card1{
         height: 200px;
         width: 175px;
+    }
+    .card1 img{
+        height: 50%;
+        width: 100%;
+        border-radius: 10px;
     }
     .content2 h4{
         font-size: 12px;
@@ -309,6 +316,11 @@ body{
     .card1{
         height: 180px;
         width: 100px;
+    }
+    .card1 img{
+        height: 50%;
+        width: 100%;
+        border-radius: 10px;
     }
     .content2 h4{
         font-size: 10px;
