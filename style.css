@@ -136,7 +136,7 @@ body{
     background-color: #000;
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 380px){
     .navbar{
         width: 360px;
         left: 0;
@@ -145,6 +145,7 @@ body{
         height:15px;
         width: 0px;
         border-radius: 10px;
+        margin-left: 20px;
         font-size: 15px;
     }
     .navbar a{
@@ -165,6 +166,7 @@ body{
     .navbar .navlogo{
         height: 25px;
         width: 50px;
+        margin-left: 10px;
     }
     .navbar button{
         height: 25px;
@@ -184,10 +186,10 @@ body{
         width:100px;
     }
     .content1{
-        width:300px;
+        width:360px;
     }
     .content2{
-        width: 290px;
+        width: 320px;
     }
     .content2 h4{
         font-size: 8px;
@@ -196,7 +198,7 @@ body{
         font-size: 6px;
     }
     .content3{
-        width: 290px;
+        width: 320px;
         text-align: center;
     }
     .topic1{
@@ -211,7 +213,7 @@ body{
         font-size: 6px;
     }
     .content4{
-        width:290px;
+        width:320px;
     }
     .content5 .footer h4{
         width: 50%;
