@@ -170,8 +170,8 @@ body{
     }
     .navbar button{
         height: 25px;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .banner{
         margin-top: 40px;
@@ -183,7 +183,7 @@ body{
     }
     .card1{
         height: 140px;
-        width:100px;
+        width:110px;
     }
     .content1{
         width:360px;
