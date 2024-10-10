@@ -320,12 +320,12 @@ body{
 }
 @media only screen and (min-width: 1440px){
     .navbar{
-        width: 1440px;
+        width: 100%;
         left: 0;
     }
     .navbar input{
         height:20px;
-        width: 700px;
+        width: 710px;
         border-radius: 10px;
         margin-left: 20px;
         font-size: 15px;
@@ -358,14 +358,14 @@ body{
     .banner{
         margin-top: 40px;
         height: 200px;
-        width: 1430px;
+        width: 100%;
     }
     .banner img{
         background-image: fill;
     }
     .card1{
         height: 300px;
-        width: 250px;
+        width: 300px;
     }
     .content1{
         width:1440px;
