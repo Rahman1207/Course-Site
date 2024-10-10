@@ -152,8 +152,13 @@ body{
         width: 0px;
     }
     .navbar button{
+        height: 30px;
         margin-left: 10px;
         margin-right: 0px;
+    }
+    .navbar a{
+        margin: 0px;
+        font-size: 10px;
     }
     .banner{
         height: 40px;
@@ -183,5 +188,66 @@ body{
     }
     .footer{
         width: 50%;
+    }
+}
+@media only screen and (max-width: 320px){
+    .navbar{
+        left: 0;
+    }
+    .navbar input{
+        height:15px;
+        width: 0px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    .navbar .icon{
+        height: 20px;
+    }
+    .navbar .navlogo{
+        height: 25px;
+        width: 50px;
+    }
+    .navbar button{
+        height: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .banner{
+        height: 40px;
+    }
+    .card1{
+        height: 140px;
+        width: 100px;
+    }
+    .content2 h4{
+        font-size: 8px;
+    }
+    .content2 h5{
+        font-size: 6px;
+    }
+    .content4 h4{
+        font-size: 8px;
+    }
+    .content4 h5{
+        font-size: 6px;
+    }
+    .topic1{
+        height: 15px;
+        width: 100px;
+    }
+    .content3{
+        text-align: center;
+    }
+    .footer{
+        width: 50%;
+    }
+    .navbar a{
+        margin: 7px;
+    }
+    h1{
+        font-size: 16px;
+    }
+    h3{
+        font-size: 14px;
     }
 }
