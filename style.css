@@ -225,3 +225,189 @@ body{
         color: white;
     }
 }
+@media only screen and (min-width: 768px){
+    .navbar{
+        width: 768px;
+        left: 0;
+    }
+    .navbar input{
+        height:15px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .navbar a{
+        font-size: 12px;
+        margin: 10px;
+    }
+    h1{
+        width: 200px;
+        font-size: 16px;
+    }
+    h3{
+        width: 200px;
+        font-size: 14px;
+    }
+    .navbar .icon{
+        height: 15px;
+    }
+    .navbar .navlogo{
+        height: 25px;
+        width: 100px;
+        margin-left: 10px;
+    }
+    .navbar button{
+        height: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .banner{
+        margin-top: 40px;
+        height: 150px;
+        width: 768px;
+    }
+    .banner img{
+        background-image: fill;
+    }
+    .card1{
+        height: 190px;
+        width: 115px;
+    }
+    .content1{
+        width:768px;
+    }
+    .content2{
+        width: 768px;
+    }
+    .content2 h4{
+        font-size: 10px;
+    }
+    .content2 h5{
+        font-size: 8px;
+    }
+    .content3{
+        width: 768px;
+        text-align: center;
+    }
+    .topic1{
+        height: 15px;
+        width: 90px;
+        font-size: 14px;
+    }
+    .content4 h4{
+        font-size: 10px;
+    }
+    .content4 h5{
+        font-size: 8px;
+    }
+    .content4{
+        width:768px;
+    }
+    .content5{
+        display: flex;
+        flex-direction: row;
+    }
+    .content5 .footer h4{
+        width: 100%;
+        font-size: 10px;
+    }
+    .footerlogo a{
+        margin-left: 20px;
+        text-decoration: none;
+        color: white;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .navbar{
+        width: 1440px;
+        left: 0;
+    }
+    .navbar input{
+        height:20px;
+        width: 700px;
+        border-radius: 10px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .navbar a{
+        font-size: 16px;
+        margin: 20px;
+    }
+    h1{
+        width: 200px;
+        font-size: 16px;
+    }
+    h3{
+        width: 200px;
+        font-size: 14px;
+    }
+    .navbar .icon{
+        height: 20px;
+    }
+    .navbar .navlogo{
+        height: 40px;
+        width: 200px;
+        margin-left: 10px;
+    }
+    .navbar button{
+        height: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .banner{
+        margin-top: 40px;
+        height: 200px;
+        width: 1430px;
+    }
+    .banner img{
+        background-image: fill;
+    }
+    .card1{
+        height: 300px;
+        width: 250px;
+    }
+    .content1{
+        width:1440px;
+    }
+    .content2{
+        width: 1440px;
+    }
+    .content2 h4{
+        font-size: 16px;
+    }
+    .content2 h5{
+        font-size: 14px;
+    }
+    .content3{
+        width: 1440px;
+        text-align: center;
+    }
+    .topic1{
+        height: 15px;
+        width: 220px;
+        font-size: 16px;
+    }
+    .content4 h4{
+        font-size: 16px;
+    }
+    .content4 h5{
+        font-size: 14px;
+    }
+    .content4{
+        width:1440px;
+    }
+    .content5{
+        display: flex;
+        flex-direction: row;
+    }
+    .content5 .footer h4{
+        width: 100%;
+        font-size: 16px;
+    }
+    .footerlogo a{
+        margin-left: 20px;
+        text-decoration: none;
+        color: white;
+    }
+}
