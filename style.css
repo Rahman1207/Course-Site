@@ -116,7 +116,6 @@ body{
     width: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     background: #000000;
 }
 .content5 h4{
@@ -130,14 +129,10 @@ body{
 .content5 a{
     text-decoration: none;
 }
-.logo{
+.footerlogo{
     width: 100%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     color: #fff;
-    margin: 25px;
 }
 
 @media only screen and (max-width: 360px){
@@ -150,6 +145,18 @@ body{
         width: 0px;
         border-radius: 10px;
         font-size: 15px;
+    }
+    .navbar a{
+        font-size: 12px;
+        margin: 5px;
+    }
+    h1{
+        width: 200px;
+        font-size: 16px;
+    }
+    h3{
+        width: 200px;
+        font-size: 14px;
     }
     .navbar .icon{
         height: 15px;
@@ -168,13 +175,13 @@ body{
     }
     .card1{
         height: 140px;
-        width:100px;
+        width:90px;
     }
     .content1{
-        width:290px;
+        width:280px;
     }
-    .content4{
-        width:290px;
+    .content2{
+        width: 270px;
     }
     .content2 h4{
         font-size: 8px;
@@ -182,89 +189,31 @@ body{
     .content2 h5{
         font-size: 6px;
     }
-    .content4 h4{
-        font-size: 8px;
-    }
-    .content4 h5{
-        font-size: 6px;
+    .content3{
+        width: 270px;
+        text-align: center;
     }
     .topic1{
         height: 15px;
-        width: 100px;
-    }
-    .content3{
-        text-align: center;
-    }
-    .footer{
-        width: 50%;
-    }
-    .navbar a{
-        font-size: 12px;
-        margin: 5px;
-    }
-    h1{
-        font-size: 16px;
-    }
-    h3{
+        width: 90px;
         font-size: 14px;
     }
-}
-
-/*@media only screen and (max-width: 620px){
-    .navbar{
-        left: 0;
-    }
-    .navbar input{
-        height:25px;
-        width: 130px;
-        border-radius: 10px;
-        font-size: 15px;
-    }
-    .navbar .navlogo{
-        width: 0px;
-    }
-    .navbar button{
-        height: 30px;
-        margin-left: 10px;
-        margin-right: 0px;
-    }
-    .navbar a{
-        margin: 0px;
-        font-size: 10px;
-    }
-    .banner{
-        height: 40px;
-    }
-    .card1{
-        height: 180px;
-        width: 180px;
-    }
-    .content1{
-        width:550px;
-    }
-    .content4{
-        width:550px;
-    }
-    .content2 h4{
-        font-size: 10px;
-    }
-    .content2 h5{
-        font-size: 8px;
-    }
     .content4 h4{
-        font-size: 10px;
+        font-size: 8px;
     }
     .content4 h5{
-        font-size: 8px;
+        font-size: 6px;
     }
-    .topic1{
-        height: 15px;
-        width: 150px;
+    .content4{
+        width:270px;
     }
-    .content3{
-        text-align: center;
-    }
-    .footer{
+    .content5 .footer h4{
         width: 50%;
+        font-size: 10px;
     }
-}*/
+    .footerlogo a{
+        margin-left: 20px;
+        text-decoration: none;
+        color: white;
+    }
+}
